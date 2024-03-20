@@ -1,0 +1,42 @@
+.body {
+  text-align: center;
+  background-image: none;
+}
+
+.imageContainer {
+  background-image: none;
+  margin-bottom: 20px;
+}
+.image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.title,
+.subtitle {
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: large;
+  font-weight: bold;
+  background-image: var(--softBg);
+  margin-top: 10px;
+}
+.subtitle {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.descriptionContainer {
+  background-image: none;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.texts {
+  text-decoration: none;
+  text-align: justify;
+  color: var(--textColor);
+  font-size: large;
+  background-image: var(--softBg);
+  margin-top: 10px;
+}
